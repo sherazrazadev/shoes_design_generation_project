@@ -1,0 +1,23 @@
+#python3.10
+triton==2.1.0
+torch @ https://download.pytorch.org/whl/cu121/torch-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=0d4e8c52a1fcf5ed6cfc256d9a370fcf4360958fc79d0b08a51d55e70914df46
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.16.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=e76e78d0ad43636c9884b3084ffaea8a8b61f21129fbfa456a5fe734f0affea9
+accelerate==0.24.1
+transformers==4.35.2
+ftfy==6.1.3
+bitsandbytes==0.41.0
+gradio==4.14.0
+natsort==8.4.0
+safetensors==0.4.1
+#xformers @ git+https://github.com/facebookresearch/xformers@4c06c79095ba8073dc870ee820e36a83302ae30c
+ultralytics==8.0.215
+RealESRGAN @ git+https://github.com/sberbank-ai/Real-ESRGAN.git@362a0316878f41dbdfbb23657b450c3353de5acf
+numpy==1.23.5
+rembg==2.0.52
+opencv-contrib-python==4.8.0.76
+diffusers==0.20.2
+altair==4.2.2
+huggingface-hub==0.19.4
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@6fdee8f2727f4506cfbbe553e23b895e27956588
+fire==0.5.0
+

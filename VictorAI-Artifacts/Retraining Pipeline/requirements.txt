@@ -1,0 +1,44 @@
+#python3.10/#python=3.9.13
+#Retraining requirements
+
+triton==2.1.0
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+accelerate==0.26.1
+transformers==4.35.2
+ftfy==6.1.1
+bitsandbytes==0.41.0
+natsort==8.4.0
+safetensors==0.4.1
+#installing Xformer takes more than 50 minutes upto to the internet for retraining
+git+https://github.com/facebookresearch/xformers@4c06c79#egg=xformers #Install when training
+
+#upscaling requirements
+git+https://github.com/sberbank-ai/Real-ESRGAN.git
+ultralytics==8.1.1
+rembg==2.0.53
+git+https://github.com/facebookresearch/segment-anything.git
+
+#google scrapped req
+#python=3.9.13
+attrs==23.1.0
+beautifulsoup4==4.12.2
+bs4==0.0.1
+certifi==2023.7.22
+cffi==1.16.0
+charset-normalizer==3.3.2
+exceptiongroup==1.1.3
+h11==0.14.0
+idna==3.4
+outcome==1.3.0.post0
+pycparser==2.21
+PySocks==1.7.1
+requests==2.31.0
+selenium==4.15.2
+sniffio==1.3.0
+sortedcontainers==2.4.0
+soupsieve==2.5
+trio==0.23.1
+trio-websocket==0.11.1
+urllib3==2.0.7
+wsproto==1.2.0
