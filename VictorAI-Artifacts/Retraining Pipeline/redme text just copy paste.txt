@@ -1,21 +1,21 @@
-# VictorAI Retraining
+# shoes gen Retraining
 
-This repository provides a script (main.py) to retrain the VictorAI model on improved performance in recognized and segmented shoes images. Follow the steps below to set up and use the retraining script.
+This repository provides a script (main.py) to retrain the shoes gen model on improved performance in recognized and segmented shoes images. Follow the steps below to set up and use the retraining script.
 ## Setup
 - Clone the repository:
 ```bash
-!git clone https://github.com/SOC-SOLUTIONS-LLC-AI-BOARD/VictorAI_Artifacts.git
-%cd VictorAI_artifacts/VictorAI
-!pip install e .    #install VictorAI pakage
+!git clone https://github.com/SOC-SOLUTIONS-LLC-AI-BOARD/shoes gen_Artifacts.git
+%cd shoes gen_artifacts/shoes gen
+!pip install e .    #install shoes gen pakage
 %cd ..
-%cd VictorAI_Artifacts/Retraining Pipeline
+%cd shoes gen_Artifacts/Retraining Pipeline
 ```
 Install the required Python packages:
 ```bash
 !pip install -r requirements.txt
 ```
 Download the necessary models and place them in the same directory as main.py
-- Download the VictorAI_Model using gdown
+- Download the shoes gen_Model using gdown
 ```bash
 !gdown 11bloYoAkwL4NcdGXmQVe3umToN-OLqI7
 ```
@@ -48,7 +48,7 @@ For Pinterest scraping, modify the following line in main.py.
   After scraped the images it will start image `preprocessing` automatically which will take time to complete.
 ### Arguments Required
 - In main.py, specify the path to the pretrained model folder:
-- `"--pretrained_model_name_or_path" , `"./victorai_shoe_model/1000"`
+- `"--pretrained_model_name_or_path" , `"./shoes gen_shoe_model/1000"`
 - In main.py, specify the Training steps you want to train the model like below:
 - `"--max_train_steps"` , `"1000"` by default its 1000 steps.
 -  In main.py, specify the save_interval if you want to save the model checkpoints before complete the training steps like below:
